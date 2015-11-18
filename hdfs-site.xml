@@ -19,9 +19,13 @@
 <configuration>
     <property>
         <name>dfs.replication</name>
-        <value>1</value>
+        <value>3</value>
     </property>
 </configuration>
 
+<property>
+<name>dfs.namenode.name.dir</name >
+<value>file:/usr/local/hadoop_store/hdfs/namenode</value >
+</property>
 
 
