@@ -18,10 +18,16 @@
 
 <configuration>
 <property>
-<name>mapreduce.framework.name</name>
-<value>yarn</value>
-<description>The runtime framework for executing MapReduce jobs. Can be one of local, classic
+<name>mapred.job.tracker</name>
+<value>hadoopmaster:54311</value>
+<description>The runtime framework for executing MapReduce jobs. Can be one of local,
+classic
 or yarn.</description>
 </property>
+<property>
+<name>mapred.framework.name</name>
+<value>yarn</value>
+</property>
+--------------------------------------------------------------------------------------------
 
 </configuration>
